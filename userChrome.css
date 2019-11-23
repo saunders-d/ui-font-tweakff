@@ -1,0 +1,25 @@
+/*  
+userChrome.css
+Simple CSS file that customizes Firefox's UI (font).
+Meant to make text more legible by emboldening and
+increasing size. Font is now Roboto for taste + mono for
+the URL bar.
+*/
+
+/* current tab */
+.tabbrowser-tab[selected="true"] .tab-label
+{ font-size: 14px !important;
+  font-weight: 450 !important;
+  font-family: Roboto, Arial, sans-serif;}
+
+/* non-focused tabs */
+.tabbrowser-tab .tab-label
+{ font-size: 14px !important;
+  font-weight: 450 !important;
+  font-family: Roboto, Arial, sans-serif;}
+
+/* url bar */
+#urlbar
+{ font-size: 13px !important;
+  font-weight: 400 !important;
+  font-family: 'Roboto Mono', 'Courier New', monospace;}
